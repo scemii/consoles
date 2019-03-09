@@ -1,0 +1,38 @@
+.App {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    background-color:black;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    min-height: 10rem;
+  }
+
+  .navbar {
+    justify-content: left;
+    font-weight: 600;    
+}
+
+.link {
+    color: #fff;
+    display: block;
+    font-size: 1.25em;
+    line-height: 18px;
+    margin: 0;
+    position: relative;
+    z-index: 9999;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+
+}
+
