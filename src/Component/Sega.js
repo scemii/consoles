@@ -4,12 +4,12 @@ import ConsoleDetailSega from "./ConsoleDetailSega";
 
 const Sega = () => {
   return (
-    <div className="ui container grid">
-      <div className="ui row">
-        <div className="column eight wide">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm">
           <ConsoleListSega />
         </div>
-        <div className="column eight wide">
+        <div className="col-sm">
           <ConsoleDetailSega />
         </div>
       </div>

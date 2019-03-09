@@ -11,7 +11,18 @@
     z-index: 1071;
     background-color:black;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
-    min-height: 10rem;
+    min-height: 8rem;
+  }
+
+  .logo{
+
+    max-width: 200px; 
+    max-height: 200px;
+  }
+
+  .consoleDetail {
+    position: sticky;
+    top:140px;
   }
 
   .navbar {
@@ -36,3 +47,6 @@
 
 }
 
+.btn {
+    margin-bottom: 10px;
+}

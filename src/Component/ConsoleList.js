@@ -6,26 +6,40 @@ class ConsoleList extends Component {
   renderList() {
     return this.props.nintendo.map(nintendo => {
       return (
-        <div className="item" key={nintendo.title}>
-          <div className="right floated content">
-            <button
+        <div className="row" key={nintendo.title}>
+          <div className="col-sm-8">
+          <div class="card">
+          <div class="card-body">
+          <div class="card-header">
+          <h4 className="card-title">{nintendo.title}</h4>
+          <p className="card-text">{nintendo.annee}</p>
+          </div>
+            <img src={nintendo.url} />
+            <div>
+            <br />
+            <div class="card-footer text-muted">
+            <button type="button" className="btn btn-dark"
               onClick={() => {
                 this.props.selectConsoleNintendo(nintendo);
               }}
-              className="ui button primary"
             >
-              Select
+              Détails
             </button>
+           </div>
+          <br />
           </div>
-          <div className="content">
-            <p className="content">{nintendo.title}</p>
-            <p className="content">{nintendo.annee}</p>
-            <img src={nintendo.url} />
+          </div>
+          </div>
           </div>
         </div>
       );
     });
   }
+
+  
+
+
+
   render() {
     return <div className="ui divided list">{this.renderList()}</div>;
   }

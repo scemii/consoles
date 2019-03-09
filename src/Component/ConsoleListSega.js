@@ -9,10 +9,11 @@ class ConsoleListSega extends Component {
         <div className="item" key={sega.title}>
           <div className="right floated content">
             <button
+              type="button" 
               onClick={() => {
                 this.props.selectConsoleSega(sega);
               }}
-              className="ui button primary"
+              className="btn btn-dark"
             >
               Select
             </button>
