@@ -50,6 +50,28 @@ const NintendoReducer = () => {
       memoire: "RAMBUS D-RAM 36M bit, Vitesse de transfert : 4 500M bit/sec. maximum",
       affichage: "256 x 224 ~ 640 x 480 points, option mode sans Flicker entrecroisé",
       taille: "Longueur 260mm, largeur 190mm, hauteur 73mm"
+    },
+    {
+      title: "Gameboy Color",
+      annee: "1998",
+      description:
+      "Le Game Boy Color fait partie d'une famille de consoles portables qui ont révolutionné la manière de jouer du monde entier. En trente ans, le Game Boy est devenu la console préférée sur la planète - plus de 100 millions d'unités vendues en font le système de loin le plus populaire. Le Game Boy Color apporte un fantastique arc-en-ciel de plus de 32 000 couleurs possibles sur un écran de 44 x 39 mm, ajouté à un processeur deux fois plus puissant que celui de son petit frère.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_1999_Gameboy_Color_large_support_carousel_image.png",
+      cpu: "8-bit Z80",
+      memoire: "32 Kbyte + 96 Kbyte VRAM (intégré CPU), 256 Kbyte WRAM (externe au CPU)",
+      affichage: "Écran couleur LCD, taille 44 x 39mm, résolution 160x140, 32 768 couleurs possibles, 56 couleurs simultanément",
+      taille: "Largeur 75mm, épaisseur 27mm, longueur 133mm"
+    },
+    {
+      title: "Gameboy Advance",
+      annee: "2001",
+      description:
+      "C'est en 2001 que Nintendo a mis en circulation dans les mains des gamers les plus exigeants la nouvelle génération du jeu portable. Avec le Game Boy Advance c'est une qualité de jeu de console de salon que vous pouvez maintenant vous mettre dans la poche. C'est coloré, éclatant et le design très intuitif des contrôles est toujours un grand classique.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2001_Gameboy_Advanced_large_support_carousel_image.png",
+      cpu: "32-Bit ARM avec mémoire intégrée",
+      memoire: "32 Kbyte + 96 Kbyte VRAM (dans CPU), 256 Kbyte WRAM (externe au CPU)",
+      affichage: "2.9'' écran réflecteur TFT, résolution 240x160, taille d'écran 40,8 mm x 61,2 mm, 32 768 couleurs possibles, 511 couleurs simultanément en mode personnage, 32 768 couleurs simultanément en mode bitmap",
+      taille: "Largeur 144,5 mm / Profondeur 24,5 mm / Hauteur 82 mm"
     }
   ];
 };

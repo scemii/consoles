@@ -13,10 +13,16 @@ const ConsoleDetail = ({ nintendo }) => {
   return (
   <div className="consoleDetail">
     <div class="row">
-      <div class="col-sm-16">
-        <div class="card">
+      <div class="col-sm-18">
+        <div class="card border-dark mb-3">
           <div class="card-body">
-            <img className="logo"src ={nintendoLogo} />
+            <div className="row">
+              <div className="col-sm">
+                <img className="logo"src ={nintendoLogo} />
+              </div>
+            <div className="col-sm"></div>
+              <img className="logo"src ={nintendo.url} />
+            </div>
             <h3 class="card-title">Console: {nintendo.title}</h3>
             <p class="card-text">Année de commercialisation: {nintendo.annee}</p>
             <p class="card-text">Histoire: {nintendo.description}</p>

@@ -8,7 +8,7 @@ class ConsoleList extends Component {
       return (
         <div className="row" key={nintendo.title}>
           <div className="col-sm-8">
-          <div class="card">
+          <div class="card bg-light mb-3">
           <div class="card-body">
           <div class="card-header">
           <h4 className="card-title">{nintendo.title}</h4>
