@@ -1,9 +1,18 @@
+.container{
+  border-left: 1px solid rgb(219, 219, 219);
+  border-right: 1px solid rgb(219, 219, 219);
+  padding: 15px;
+  
+}
+
 .App {
     margin-right: auto;
     margin-left: auto;
     padding-left: 5px;
     padding-right: 5px;
+    
 }
+
 
 .header {
     position: sticky;
@@ -11,18 +20,32 @@
     z-index: 1071;
     background-color:black;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
-    min-height: 8rem;
+    min-height: 5rem;
   }
 
-  .logo{
 
+  .logo {
     max-width: 200px; 
     max-height: 200px;
   }
 
+.item {
+  position: sticky;
+  top:100px;
+}
+
   .consoleDetail {
     position: sticky;
-    top:145px;
+    top:100px;
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    flex: 1 1 0%;
+    
+    
   }
 
   .navbar {
@@ -33,7 +56,7 @@
 .link {
     color: #fff;
     display: block;
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 18px;
     margin: 0;
     position: relative;
@@ -44,8 +67,51 @@
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 
-
 }
+
+@font-face {
+  font-family: "Pretendo";
+  src: "../assets/Pretendo.ttf"
+}
+
+.linkNintendo {
+  font-family: "Pretendo";
+  color: #fff;
+  display: block;
+  font-size: 1.5em;
+  line-height: 18px;
+  margin: 0;
+  position: relative;
+  z-index: 9999;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+@font-face {
+  font-family: "segaFont";
+  src: "../assets/segaFont.ttf"
+}
+
+.linkSega {
+  font-family: "segaFont";
+  color: #fff;
+  display: block;
+  font-size: 1.5em;
+  line-height: 18px;
+  margin: 0;
+  position: relative;
+  z-index: 9999;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+
 
 .btn {
     margin-bottom: 10px;

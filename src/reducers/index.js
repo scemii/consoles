@@ -63,7 +63,7 @@ const NintendoReducer = () => {
       taille: "Largeur 75mm, épaisseur 27mm, longueur 133mm"
     },
     {
-      title: "Gameboy Advance",
+      title: "GameBoy Advance",
       annee: "2001",
       description:
       "C'est en 2001 que Nintendo a mis en circulation dans les mains des gamers les plus exigeants la nouvelle génération du jeu portable. Avec le Game Boy Advance c'est une qualité de jeu de console de salon que vous pouvez maintenant vous mettre dans la poche. C'est coloré, éclatant et le design très intuitif des contrôles est toujours un grand classique.",
@@ -72,6 +72,39 @@ const NintendoReducer = () => {
       memoire: "32 Kbyte + 96 Kbyte VRAM (dans CPU), 256 Kbyte WRAM (externe au CPU)",
       affichage: "2.9'' écran réflecteur TFT, résolution 240x160, taille d'écran 40,8 mm x 61,2 mm, 32 768 couleurs possibles, 511 couleurs simultanément en mode personnage, 32 768 couleurs simultanément en mode bitmap",
       taille: "Largeur 144,5 mm / Profondeur 24,5 mm / Hauteur 82 mm"
+    },
+    {
+      title: "Nintendo GameCube",
+      annee: "2002",
+      description:
+      "Petit, mignon et désirable - c'est le Nintendo GameCube. Disponible en violet, noir et en éditions spéciales de différentes couleurs, le design unique du Nintendo GameCube et sa forme compacte (11.4cm x 15cm x 16cm) démontrent bien la volonté de Nintendo de perpétuer l'originalité et l'innovation dans le monde des jeux vidéo. Et avec toute la puissance qu'il y a sous le capot pour un si petit prix, Nintendo GameCube est un investissement plus que rentable.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2002_Nintendo_Gamecube_large_support_carousel_image.png",
+      cpu: "IBM Power PC modifié 485 mhz",
+      memoire: "24 Mo de SRAM type MoSys (accès en 1 cycle, temps d'accès moyen de 10 ns)",
+      affichage: "Flipper personnalisé ATI/Nintendo",
+      taille: "11.4cm (H) x 15cm (L) x 16cm (P)"
+    },
+    {
+      title: "GameBoy Advance SP",
+      annee: "2002",
+      description:
+      "On a gardé tout ce que vous adorez du Game Boy Advance, rêvé toute une série de nouvelles spécificités (nouvel écran éclairé intégré rabattable, nouvelle batterie rechargeable) et réussi le tour de force de mettre le tout dans la portable au style le plus épuré que vous ayez jamais vu. Désormais, à vous tous les jeux Game Boy et Game Boy Advance sur une console ''first class'' !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2003_gameboy_color_large_support_carousel_image.png",
+      cpu: "32 bits ARM avec mémoire intégrée",
+      memoire: "32 Ko + 96 Ko VRAM (interne CPU), 256 Ko WRAM (externe CPU)",
+      affichage: "Écran diffusant 2,9'' TFT avec éclairage intégré, résolution 240 x 160, taille de l'écran 40,8 mm x 61,2 mm, 32768 couleurs possibles, 511 couleurs simultanées en mode personnage, 32768 images simultanées en mode image par points.",
+      taille: "Largeur 82 mm / Epaisseur 24,3 mm / Longueur 84,6 mm"
+    },
+    {
+      title: "Nintendo DS",
+      annee: "2005",
+      description:
+      "Avec deux écrans LCD rétro-éclairés d'une très grande définition, la Nintendo DS Lite offre une nouvelle approche du jeu. Les possibilités sont illimitées : l'un des écrans peut servir à montrer l'action principale tandis qu'un autre peut être utilisé pour montrer les cartes, inventaires, ou point de vue secondaire, mais les deux écrans peuvent être utilisés simultanément pour montrer les immenses boss !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2005_Nintendo_DS_large_support_carousel_image.png",
+      cpu: "na",
+      memoire: "na",
+      affichage: "na",
+      taille: "na"
     }
   ];
 };
