@@ -10,7 +10,7 @@ const Header = () => {
         Nintendo
       </Link>
         <Link to="/sega" className="linkSega">
-          SEGA
+         SEGA
         </Link>
           <Link to="/sony" className="link">
             Sony

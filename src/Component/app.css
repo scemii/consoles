@@ -34,23 +34,22 @@
   top:100px;
 }
 
-  .consoleDetail {
-    position: sticky;
-    top:100px;
-    display: flex;
-    flex-wrap: initial;
-    flex-direction: column;
-    width: 100%;
-    overflow: hidden;
-    display: block;
-    flex: 1 1 0%;
-    
-    
-  }
+    .consoleDetail {
+      position: sticky;
+      top:100px;
+      display: flex;
+      flex-wrap: initial;
+      flex-direction: column;
+      width: 100%;
+      overflow: hidden;
+      display: block;
+      flex: 1 1 0%;  
+    }
 
   .navbar {
     justify-content: left;
-    font-weight: 600;    
+    font-weight: 600; 
+    margin-bottom: 0%;   
 }
 
 .link {
@@ -112,7 +111,17 @@
 }
 
 
-
 .btn {
     margin-bottom: 10px;
+}
+
+.headerImage {
+background-color: white;
+
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
