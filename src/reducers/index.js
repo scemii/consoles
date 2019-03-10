@@ -105,6 +105,50 @@ const NintendoReducer = () => {
       memoire: "na",
       affichage: "na",
       taille: "na"
+    },
+    {
+      title: "GameBoy Micro",
+      annee: "2005",
+      description:
+      "Nous avons repris les meilleurs éléments du Game Boy Advance et les avons miniaturisés. Avec un écran doté d´un éclairage parfait, quatre designs de console très stylés et plus de 500 jeux à disposition. Game Boy Micro apporte une puissance ludique qui tient dans la poche !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2005_gameboy_micro_large_support_carousel_image.png",
+      cpu: "32 bit RISC-CPU + 8 bit CISC-CPU",
+      memoire: "2 Ko WRAM + 96 Ko VRAM (interne CPU), 256 Ko WRAM (externe CPU)",
+      affichage: "Taille : 2 pouces (28,32 mm x 42,48 mm) / Résolution : 240 x 160 Pixels / Fréquence d'affichage : 60 Hz",
+      taille: "101 x 50 x 17,2 mm"
+    },
+    {
+      title: "Nintendo DS Lite",
+      annee: "2006",
+      description:
+      "Avec deux écrans LCD rétro-éclairés d'une très grande définition, la Nintendo DS Lite offre une nouvelle approche du jeu. Les possibilités sont illimitées : l'un des écrans peut servir à montrer l'action principale tandis qu'un autre peut être utilisé pour montrer les cartes, inventaires, ou point de vue secondaire, mais les deux écrans peuvent être utilisés simultanément pour montrer les immenses boss !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2006_DS_Lite_large_support_carousel_image.png",
+      cpu: "na",
+      memoire: "na",
+      affichage: "na",
+      taille: "na"
+    },
+    {
+      title: "Nintendo Wii",
+      annee: "2006",
+      description:
+      "La Wii est une console de jeux de salon sortie en 2006. Console de la septième génération, tout comme la Xbox 360 et la PlayStation 3 avec lesquelles elle est en rivalité, elle est la console de salon la plus vendue de sa génération et a comme particularité d'utiliser un accéléromètre capable de détecter la position, l'orientation et les mouvements dans l'espace de la manette.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2006_Wii_large_support_carousel_image.png",
+      cpu: "IBM Broadway 729Mhz 90 nm SOI",
+      memoire: "une unique puce externe de 64 Mio de GDDR3 sur un bus 32 bit",
+      affichage: "Chip graphique, nom de code Hollywood, développé par ATI",
+      taille: "44 mm de large, 157 mm de haut et 215,4 mm de profondeur dans sa position verticale"
+    },
+    {
+      title: "Nintendo DSi",
+      annee: "2009",
+      description:
+      "Grâce à l'appareil photo Nintendo DSi et au studio son Nintendo DSi, vous pouvez désormais retoucher vos photos et écouter vos chansons et vos podcasts préférés partout où vous le souhaitez. Vous pouvez également visiter la boutique Nintendo DSi pour personnaliser votre console. Utilisez vos Nintendo DSi Points pour profiter de la gamme Nintendo DSiWare, une sélection de jeux et d'applications qui tirent parti des nouvelles fonctionnalités de la Nintendo DSi. La boutique Nintendo DSi accueille sans cesse de nouveaux produits : n'hésitez pas à revenir aussi souvent que vous le souhaitez !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2009_DSi_large_support_carousel_image.png",
+      cpu: "na",
+      memoire: "na",
+      affichage: "na",
+      taille: "na"
     }
   ];
 };

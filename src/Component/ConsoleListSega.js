@@ -6,27 +6,36 @@ class ConsoleListSega extends Component {
   renderList() {
     return this.props.sega.map(sega => {
       return (
-        <div className="item" key={sega.title}>
-          <div className="right floated content">
-            <button
-              type="button" 
-              onClick={() => {
-                this.props.selectConsoleSega(sega);
-              }}
-              className="btn btn-dark"
-            >
-              Select
-            </button>
-          </div>
-          <div className="content">
-            <p className="content">{sega.title}</p>
-            <p className="content">{sega.annee}</p>
-            <img src={sega.url} />
+        <div className="row" key={sega.title}>
+          <div className="col-sm-8">
+            <div class="card bg-light mb-3">
+              <div class="card-body">
+                <div class="card-header">
+                  <h4 className="card-title">{sega.title}</h4>
+                  <p className="card-text">{sega.annee}</p>
+                </div>
+              <img src={sega.url} />
+            <div>
+              <br />
+                <div class="card-footer text-muted">
+                  <button type="button" className="btn btn-dark"
+                  onClick={() => {
+                  this.props.selectConsoleSega(sega);
+                  }}
+                  >
+                  Détails
+                  </button>
+                </div>
+              <br className="separateur" />
+            </div>
           </div>
         </div>
-      );
-    });
-  }
+      </div>
+    </div>
+  );
+  });
+}
+
   render() {
     return <div className="ui divided list">{this.renderList()}</div>;
   }
