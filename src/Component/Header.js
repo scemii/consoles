@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./app.css"
 
 const Header = () => {
@@ -9,12 +10,12 @@ const Header = () => {
       <Link to="/" className="linkNintendo">
         Nintendo
       </Link>
-        <Link to="/sega" className="linkSega">
+      <Link to="/sega" className="linkSega">
          SEGA
-        </Link>
-          <Link to="/sony" className="link">
-            Sony
-          </Link>
+      </Link>
+      <Link to="/sony" className="link">
+          Sony
+      </Link>
         </ul>
     </div>
   );

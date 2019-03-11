@@ -15,7 +15,7 @@ class ConsoleList extends Component {
                   <h4 className="card-title">{nintendo.title}</h4>
                   <p className="card-text">{nintendo.annee}</p>
                 </div>
-              <img src={nintendo.url} />
+                <img src={nintendo.url} />
             <div>
               <br />
                 <div class="card-footer text-muted">
