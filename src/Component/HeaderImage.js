@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../assets/image3.jpg'; // Tell Webpack this JS file uses this image
+import image from '../assets/image3.jpg'; 
+import image2 from "../assets/image4.jpg"
 import "./app.css"
 import Carousel from "react-bootstrap/Carousel";
 
@@ -17,7 +18,7 @@ function HeaderImage() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src={image}
+        src={image2}
         alt="Third slide"
       />
     </Carousel.Item>
