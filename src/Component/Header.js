@@ -8,13 +8,13 @@ const Header = () => {
     <div className="header">
     <ul className="navbar">
       <Link to="/" className="linkNintendo">
-        Nintendo
+        NINTENDO
       </Link>
       <Link to="/sega" className="linkSega">
          SEGA
       </Link>
       <Link to="/sony" className="link">
-          Sony
+          SONY
       </Link>
         </ul>
     </div>

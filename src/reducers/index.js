@@ -149,6 +149,50 @@ const NintendoReducer = () => {
       memoire: "na",
       affichage: "na",
       taille: "na"
+    },
+    {
+      title: "Nintendo DSi XL",
+      annee: "2010",
+      description:
+      "Appréhendez le monde à travers les yeux de votre Nintendo DSi ou Nintendo DSi XL grâce aux deux objectifs, intérieur et extérieur, de son appareil photo numérique intégré. La Nintendo DSi vous permet de prendre des photos et de les sauvegarder dans la mémoire interne de la console ou sur une carte SD. 11 filtres sont à votre disposition pour retoucher vos photos. Vous pouvez même créer votre propre journal photo et partager vos clichés favoris avec vos amis via la connexion sans fil !",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2010_DS_XL_large_support_carousel_image.png",
+      cpu: "na",
+      memoire: "na",
+      affichage: "na",
+      taille: "na"
+    },
+    {
+      title: "Nintendo 3DS",
+      annee: "2011",
+      description:
+      "La 3DS est une console portable de huitième génération développée par Nintendo, ayant pour particularité l'affichage en 3D auto-stéréoscopique (sans lunettes). La Nintendo 3DS succède à la Nintendo DS, et est rétrocompatible avec les logiciels de cette dernière. Elle est disponible au lancement sous deux coloris : Bleu Lagon et Noir Cosmos4. Sa concurrente principale est la PlayStation Vita de Sony.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2011_Nintendo_3DS_large_support_carousel_image.png",
+      cpu: "SOC (CTR)",
+      memoire: "128 Mo de mémoire vive",
+      affichage: "16m de couleurs, 800 × 240 pixels ",
+      taille: "134 × 74 × 21 mm"
+    },
+    {
+      title: "Nintendo 3DS XL",
+      annee: "2012",
+      description:
+      "La 3DS XL est la version « grand format » de la Nintendo 3DS. Sa sortie a été annoncée lors du Nintendo Direct du 22 juin 2012. C'est en France à l'IDEF que la 3DS XL a pu être découverte pour la première fois, un mois tout juste avant sa sortie.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2012_Nintendo_3DS_XL_large_support_carousel_image.png",
+      cpu: "na",
+      memoire: "na",
+      affichage: "na",
+      taille: "na"
+    },
+    {
+      title: "Nintendo Wii-U",
+      annee: "2012",
+      description:
+      "La Wii U est une console de jeu vidéo commercialisée par Nintendo, succédant à la Wii. Elle est sortie le 18 novembre 2012 en Amérique du Nord, le 30 novembre 2012 en Europe et le 8 décembre 2012 au Japon. Première console de jeu vidéo de huitième génération à sortir dotée d'une manette avec écran tactil, elle est en concurrence avec la PlayStation 4 et la Xbox One.",
+      url:"//cdn03.nintendo-europe.com/media/images/01_website_elements/hardware_1/hardware_2012_WiiU_black_large_support_carousel_image.png",
+      cpu: "processeur tri-cœur IBM basé sur l'architecture IBM Power",
+      memoire: "2Go",
+      affichage: "AMD Radeon HD « Latte » ",
+      taille: "17,5 × 26,8 × 4,6 cm"
     }
   ];
 };
