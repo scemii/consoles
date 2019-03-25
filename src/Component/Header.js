@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <div className="header">
     <ul className="navbar">
-      <Link to="/" className="linkNintendo">
+      <Link to="/console/nintendo" className="linkNintendo">
         NINTENDO
       </Link>
-      <Link to="/sega" className="linkSega">
+      <Link to="/console/sega" className="linkSega">
          SEGA
       </Link>
-      <Link to="/sony" className="link">
+      <Link to="/console/sony" className="link">
           SONY
       </Link>
         </ul>

@@ -3,8 +3,8 @@ import { connect } from "react-redux";
 import nintendoLogo from "../assets/nintendoLogo.png";
 import "./app.css"
 
-const ConsoleDetail = ({ nintendo }) => {
-  if (!nintendo) {
+const ConsoleDetail = ({ console }) => {
+  if (!console) {
     return (<div className="item">
     <h3>
     Sélectionnez une console
@@ -14,25 +14,26 @@ const ConsoleDetail = ({ nintendo }) => {
   return (
   <div className="consoleDetail">
     <div class="row">
-      <div class="col-sm-18">
+      <div className="Card">
         <div class="card border-dark mb-3">
           <div class="card-body">
             <div className="row">
               <div className="col-sm">
-                <img className="logo"src ={nintendoLogo} />
+                <img className="logo"src ={console.url2} alt='nintendo' />
               </div>
             <div className="col-sm"></div>
-              <img className="logo"src ={nintendo.url} />
+              <img className="logo"src ={console.url} alt="nintendo" />
             </div>
-            <h3 class="card-title">Console: {nintendo.title}</h3>
-            <p class="card-text">Année de commercialisation: {nintendo.annee}</p>
-            <p class="card-text">Histoire: {nintendo.description}</p>
+            <br />
+            <h3 class="card-title">Console: {console.title}</h3>
+            <p class="card-text">Année de commercialisation: {console.annee}</p>
+            <p class="card-text">Histoire: {console.description}</p>
             <h3 class="card-title">Specs</h3>
             <p class="card-text">
-              <li>CPU : {nintendo.cpu}</li>
-              <li>Mémoire : {nintendo.memoire}</li>
-              <li>Affichage : {nintendo.affichage}</li>
-              <li>Taille : {nintendo.taille}</li>
+              <li>CPU : {console.cpu}</li>
+              <li>Mémoire : {console.memoire}</li>
+              <li>Affichage : {console.affichage}</li>
+              <li>Taille : {console.taille}</li>
             </p>
           </div>
         </div>
@@ -43,10 +44,8 @@ const ConsoleDetail = ({ nintendo }) => {
 };
 
 
-const mapStateToProps = state => {
-  return {
-    nintendo: state.selectedConsole
-  };
+const mapStateToProps = (state, props) => {
+  return { console: state.selectedConsole };
 };
 
 export default connect(mapStateToProps)(ConsoleDetail);
