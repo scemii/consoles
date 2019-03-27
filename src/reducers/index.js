@@ -293,6 +293,35 @@ const SonyReducer = () => {
 };
 
 
+const MiscrosoftReducer = () => {
+  return [
+    {
+      title: "Xbox",
+      annee: "2001",
+      description:
+        "La Xbox de Microsoft est une console de jeux vidéo sortie aux États-Unis le 15 novembre 2001. Microsoft fait avec ses premiers pas dans ce secteur, après avoir collaboré avec Sega pour porter Windows CE sur Dreamcast, et après avoir développé depuis plusieurs années des jeux Microsoft Game Studios et des accessoires de jeux vidéo SideWinder pour les PC sous Windows.",
+      url: "//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Xbox-Console-Set.png/250px-Xbox-Console-Set.png",
+      url2: "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/88px-Xbox_one_logo.svg.png"
+    },
+    {
+      title: "Xbox 360",
+      annee: "2005",
+      description:
+        "La Xbox 360 est une console de jeux vidéo développée par Microsoft, en coopération avec IBM, ATI, Samsung et SiS. Elle succède à la Xbox, et elle concurrence, dans la lignée des consoles de jeux vidéo de septième génération, la Wii de Nintendo et la PlayStation 3 de Sony. En date du 12 février 2013, 75,9 millions d'exemplaires ont été vendus à travers le monde4. Trois modèles de la console peuvent être distingués — le modèle initial commercialisé aux États-Unis le 22 novembre 2005, la version légère et silencieuse appelée Xbox 360 S commercialisée le 16 juillet 2010 en Europe, et la troisième version Xbox 360 E commercialisée en 2013.",
+      url: "//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Xbox-360-Consoles-Infobox.png/230px-Xbox-360-Consoles-Infobox.png",
+      url2: "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/88px-Xbox_one_logo.svg.png"
+    },
+    {
+      title: "Xbox One",
+      annee: "2013",
+      description:
+        "La Xbox One est une console de jeux vidéo de huitième génération développée par Microsoft. Dévoilée le 21 mai 2013, elle succède à la Xbox 360 et se place en concurrence frontale avec la PlayStation 4 de Sony, et plus indirectement avec la Wii U de Nintendo. Elle est disponible depuis le 22 novembre 2013 dans treize pays et depuis septembre 2014 dans vingt-six autres pays. D'abord uniquement commercialisée avec Kinect, Microsoft propose la console seule à partir du 9 juin 2014.",
+      url: "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Microsoft-Xbox-One-Console-wKinect.png/280px-Microsoft-Xbox-One-Console-wKinect.png",
+      url2: "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/88px-Xbox_one_logo.svg.png"
+    },
+  ];
+};
+
 
 const selectedConsoleReducer = (selectedConsole = null, action) => {
   if (action.type === "CONSOLE_SELECTED") {
@@ -305,5 +334,6 @@ export default combineReducers({
   nintendo: NintendoReducer,
   sega: SegaReducer,
   sony: SonyReducer,
+  microsoft: MiscrosoftReducer,
   selectedConsole: selectedConsoleReducer
 });

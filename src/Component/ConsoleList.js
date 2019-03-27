@@ -56,6 +56,9 @@ const mapStateToProps = (state, props) => {
   if(props.console === 'sony') {
     return { console: state.sony };
   }
+  if(props.console === 'microsoft') {
+    return { console: state.microsoft };
+  }
 };
 
 const mapDispatchToProps = (dispatch) => {

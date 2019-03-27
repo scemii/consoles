@@ -16,6 +16,9 @@ const Header = () => {
       <Link to="/console/sony" className="link">
           SONY
       </Link>
+      <Link to="/console/microsoft" className="link">
+          MICROSOFT
+      </Link>
         </ul>
     </div>
   );

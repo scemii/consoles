@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import nintendoLogo from "../assets/nintendoLogo.png";
 import "./app.css"
 
 const ConsoleDetail = ({ console }) => {
